@@ -27,7 +27,7 @@ a:focus {
 .logo span {
   color: #4d5ae5;
 }
-.nav-link {
+.navi-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -37,7 +37,7 @@ address a {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: inherit
+  color: inherit;
 }
 h1 {
   background: #2e2f42;
@@ -87,6 +87,6 @@ p {
   text-align: center;
 }
 footer p {
-    color: #f4f4fd;
-    background: #2e2f42;
+  color: #f4f4fd;
+  background: #2e2f42;
 }
