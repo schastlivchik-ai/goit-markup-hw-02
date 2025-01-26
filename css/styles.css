@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 .logo span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .logo:hover span,
 .logo:focus span {
@@ -25,12 +25,13 @@ a:focus {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .navi-link {
@@ -39,37 +40,42 @@ a:focus {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-address a {
+.address {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: inherit;
 }
-h1 {
-  background: #2e2f42;
+.solutions {
+  background-color: #2e2f42;
+}
+.main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
-h2 {
+.title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
-h3 {
+.head {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-p {
+.team .head {
+  text-transform: capitalize;
+}
+.text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -85,13 +91,25 @@ p {
 .button:focus {
   background-color: #404bbf;
 }
-.team h3 {
+.team {
+  background-color: #f4f4fd;
+}
+.team .head {
   text-align: center;
 }
-.team p {
+.team .text {
   text-align: center;
+  font-size: 16px;
 }
-footer p {
+.empl-box {
+  background-color: #fff;
+}
+.portfolio .title {
+  text-transform: capitalize;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.text-footer {
   color: #f4f4fd;
-  background: #2e2f42;
 }
