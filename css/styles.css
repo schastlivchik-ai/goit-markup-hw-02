@@ -12,10 +12,21 @@ ol {
 a {
   text-decoration: none;
 }
-.logo span {
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
+.span-header {
   color: #2e2f42;
 }
-.footer .logo span {color: #f4f4fd;}
+.span-footer {
+  color: #f4f4fd;
+}
 .logo:hover span,
 .logo:focus span {
   color: #404bbf;
@@ -25,15 +36,7 @@ a:focus {
   color: #404bbf;
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
+
 
 .navi-link {
   font-weight: 500;
@@ -95,6 +98,9 @@ a:focus {
 .team {
   background-color: #f4f4fd;
 }
+.team .title {
+  text-transform: capitalize;
+}
 .team .head {
   text-align: center;
 }
@@ -113,4 +119,6 @@ a:focus {
 }
 .text-footer {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
