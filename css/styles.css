@@ -50,6 +50,10 @@ a:focus {
   letter-spacing: 0.02em;
   color: inherit;
 }
+.contacts {
+    color:#434455;
+    
+}
 .solutions {
   background-color: #2e2f42;
 }
